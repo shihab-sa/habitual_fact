@@ -1,0 +1,21 @@
+.radial-progress-container {
+  position: relative;
+  display: inline-block;
+}
+
+.radial-progress {
+  position: relative;
+  z-index: 1;
+}
+
+.radial-progress-stroke {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 33px solid #fec7d7; /* Stroke color */
+  border-radius: 50%;
+  box-sizing: border-box;
+  z-index: 0;
+}
